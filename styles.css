@@ -434,8 +434,9 @@ a {
 
 .camera-focus-marker {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  z-index: 2;
+  right: 24px;
+  bottom: 24px;
   width: 58px;
   height: 58px;
   padding: 8px;
@@ -444,6 +445,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 8px;
   backdrop-filter: blur(4px);
+  pointer-events: none;
 }
 
 .camera-focus-marker svg {
