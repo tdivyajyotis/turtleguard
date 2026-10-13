@@ -1,0 +1,13 @@
+{
+  "name": "TurtleGuard",
+  "short_name": "TurtleGuard",
+  "description": "Explainable edge monitoring for olive ridley rookeries.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2eadc",
+  "theme_color": "#0b3442",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
